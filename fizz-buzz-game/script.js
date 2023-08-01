@@ -13,7 +13,7 @@ function show(){
 
     //evalute and store the values in array
     for(let i=0;i<=num;i++){
-        if((i%15)==0){
+        if(i%3 == 0 && i%5 == 0){
             store[j]="fuzzbuzz"
         }
         else if(i%5==0){

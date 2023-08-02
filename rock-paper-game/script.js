@@ -9,3 +9,11 @@ function getComputerChoice(){
     let store = ["ROCK","PAPER","SCISSOR"];
     return store[computer_value - 1];
 }
+
+function show(){
+    let result = document.querySelector(".result");
+    let playerSelection = convert_capital();
+    let computerSelection = getComputerChoice();
+
+    
+}

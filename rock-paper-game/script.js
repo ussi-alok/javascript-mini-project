@@ -1,8 +1,10 @@
+//convert the user value in capital letters
 function convert_capital(){
     let value = document.querySelector("#input-text").value;
     return value.toUpperCase();
 }
 
+//get computer value 
 function getComputerChoice(){
     let min =1, max =3;
     let computer_value =Math.floor(Math.random() * (max - min +1) + min);
@@ -10,6 +12,7 @@ function getComputerChoice(){
     return store[computer_value - 1];
 }
 
+//compare computer value and user value then, show the result
 function getShowResult(playerSelection,computerSelection){
     let result = document.querySelector(".result");
     let computerValue = document.querySelector(".computerValue");
@@ -28,6 +31,7 @@ function getShowResult(playerSelection,computerSelection){
     computerValue.innerHTML = computerSelection;
 }
 
+//call the function that show the final result
 function show(){
     
     let playerSelection = convert_capital();

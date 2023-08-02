@@ -2,3 +2,10 @@ function convert_capital(){
     let value = document.querySelector("#input-text");
     return value.toUpperCase();
 }
+
+function getComputerChoice(){
+    let min =1, max =3;
+    let computer_value =Math.floor(Math.random() * (max - min +1) + min);
+    let store = ["ROCK","PAPER","SCISSOR"];
+    return store[computer_value - 1];
+}

@@ -1,5 +1,5 @@
 function convert_capital(){
-    let value = document.querySelector("#input-text");
+    let value = document.querySelector("#input-text").value;
     return value.toUpperCase();
 }
 

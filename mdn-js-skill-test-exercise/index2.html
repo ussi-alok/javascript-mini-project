@@ -32,7 +32,8 @@
     const lower = quote.toLocaleLowerCase();
     const fixedQuote = lower.replace(lower[0],quote[0]);
     const indexString = fixedQuote.indexOf("green eggs and ham");
-    const updateQuote = fixedQuote.replace(indexString,"chicken and paneer");
+    const updateQuote = fixedQuote.replace(fixedQuote[indexString],"chicken and paneer");
+    const finalQuote = updateQuote.concat(".");
     // Don't edit the code below here!
 
     const section = document.querySelector('section');

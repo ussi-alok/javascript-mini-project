@@ -31,6 +31,8 @@
     // Add your code here
     const lower = quote.toLocaleLowerCase();
     const fixedQuote = lower.replace(lower[0],quote[0]);
+    const indexString = fixedQuote.indexOf("green eggs and ham");
+    const updateQuote = fixedQuote.replace(indexString,"chicken and paneer");
     // Don't edit the code below here!
 
     const section = document.querySelector('section');

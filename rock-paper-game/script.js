@@ -3,7 +3,7 @@ function convert_capital() {
   // let value = document.querySelector("#input-text").value;
   // return value.toUpperCase();
 
-  //obtain input values through button
+  //obtain input values through buton
   const buttons = document.querySelectorAll(".buttonItem");
 
   buttons.forEach((button) => {

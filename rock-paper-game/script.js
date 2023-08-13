@@ -1,7 +1,7 @@
 //convert the user value in capital letters
 function convert_capital(){
-    let value = document.querySelector("#input-text").value;
-    return value.toUpperCase();
+    // let value = document.querySelector("#input-text").value;
+    // return value.toUpperCase();
 }
 
 //get computer value 

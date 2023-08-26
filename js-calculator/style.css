@@ -17,3 +17,42 @@ body{
     justify-content: center;
     height: 100vh;
 }
+.cal_main{
+    width: 500px;
+    min-width: 400px;
+    background-color: var(--calc-bg-color);
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+.cal_button{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    gap: 10px;
+}
+.input_items{
+    flex: 1 1 70%;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--input-bg-color);
+}
+
+.cal_btn,.clear_input,.light_mode{
+    flex: 1 1 20%;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+.cal_num,.light_mode{
+    background-color: var(--oprnd-bg-color);
+}
+.cal_operator{
+    background-color: var(--oprt-bg-color);
+}
+.light_mode{
+    margin-left: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}

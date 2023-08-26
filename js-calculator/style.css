@@ -10,3 +10,10 @@
     --oprnd-bg-color: #efefef;
     --input-bg-color: #f1fbeb;
 }
+body{
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
